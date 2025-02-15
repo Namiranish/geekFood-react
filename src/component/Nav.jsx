@@ -1,10 +1,10 @@
 import styles from "./Nav.module.css";
-
+import img from "../assets/logo.svg"
 const Nav = () => {
     return (
         <nav className={styles.navbar}>
             <div className={styles.logo}>
-                <img src="./src/assets/logo.svg" alt="logo" />
+            <img src={img} />
                 <h1>GeekFoods</h1>
             </div>
 
