@@ -6,7 +6,7 @@
 **GeekFood** is a modern, fully responsive landing page designed for a future food ordering platform. It features an intuitive and visually appealing interface to showcase delicious meals and attract potential users.
 
 ### 🔗 Hosted Link
-[Live Demo](https://your-hosted-link.com)
+[Live Demo](https://geeksfood-react.vercel.app/)
 
 ## Features 🚀
 - 🍽️ **Attractive UI** - A clean and modern design to enhance user engagement.
