@@ -1,0 +1,178 @@
+
+.aboutContainer {
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+    padding-top: 50px;
+    height: 100%;
+    flex-wrap: wrap; 
+  }
+  
+  .image {
+    width: 95%;
+    height: 650px;
+    object-fit: cover;
+  }
+  
+  .leftCont {
+    width: 55%;
+    height: 100%;
+    padding-top: 60px;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .rightCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f4f6;
+    width: 50%;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    height: 90%;
+  }
+  
+  .rightContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 70%;
+  }
+  
+  .rightCont h2 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .rightCont p {
+    color: #6b7280;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .aboutButton {
+    width: 170px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease;
+    border: 1px solid #4f46e5;
+    background-color: #4f46e5;
+    color: #fff;
+  }
+  
+  .aboutButton:hover {
+    background-color: rgba(255, 255, 255, 0.509);
+    color: #4f46e5;
+  }
+  
+  /* Responsive Design */
+  
+  @media (max-width: 1024px) {
+    .aboutContainer {
+      flex-direction: column; 
+      align-items: center;
+      padding: 20px;
+    }
+  
+    .leftCont {
+      width: 100%; 
+      padding-top: 20px; 
+      height: auto; 
+      position: relative;
+    }
+  
+    .rightCont {
+      width: 100%;
+      position: relative;
+      height: auto;
+      padding: 15px;
+    }
+  
+    .rightContent {
+      width: 90%;
+      align-items: center;
+    }
+  
+    .rightCont h2 {
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .rightCont p {
+      font-size: 14px;
+      text-align: center;
+    }
+  
+    .aboutButton {
+      width: 150px;
+      height: 40px;
+      margin-top: 15px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .aboutContainer {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .leftCont {
+      width: 100%;
+      padding-top: 20px;
+      height: 300px; 
+    }
+  
+    .image {
+      height: 300px; 
+      object-fit: cover;
+    }
+  
+    .rightCont {
+      width: 100%;
+      position: relative;
+      height: auto;
+      padding: 15px;
+    }
+  
+    .rightContent {
+      width: 90%;
+      align-items: center;
+    }
+  
+    .rightCont h2 {
+      font-size: 18px;
+      text-align: center;
+    }
+  
+    .rightCont p {
+      font-size: 14px;
+      text-align: center;
+    }
+  
+    .aboutButton {
+      width: 140px;
+      height: 35px;
+      margin-top: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .rightCont h2 {
+      font-size: 16px;
+    }
+  
+    .rightCont p {
+      font-size: 12px;
+    }
+  
+    .aboutButton {
+      width: 120px;
+      height: 30px;
+    }
+  }
